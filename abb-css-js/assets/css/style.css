@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f5f5f5;
+}
+header .cont {
+  padding: 10px 40px;
+}
+header .cont nav a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+  margin: 0px 24px 0px 0px;
+  letter-spacing: -0.5px;
+  transition: 0.5s;
+}
+header .cont nav a:hover {
+  text-decoration: underline;
+}
+header .cont nav .btn {
+  color: #0056c1;
+  border: 1px solid #0056c1;
+  border-radius: 20px;
+  padding: 4px 11px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  font-size: 14px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+header .cont nav .btn:hover {
+  color: #fff;
+  background-color: #0056c1;
+  text-decoration: none;
+}
+header .cont .top {
+  display: flex;
+  justify-content: space-between;
+}
+header .cont .top .header-top {
+  display: flex;
+  justify-content: space-between;
+}
+header .cont .top .header-top div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+header .cont .top .header-top div i {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 4px;
+}
+header .cont .top .header-top div .mg-left {
+  margin-left: 4px;
+}
+header .cont .top .header-top div .first {
+  font-size: 13px;
+  color: #666666;
+}
+header .cont .top .header-top div .second {
+  color: #666666;
+  font-size: 14px;
+}
+header .cont .top .header-top div .third {
+  font-weight: 600;
+  color: #666666;
+  font-size: 15px;
+}
+header .cont .top .header-top div:hover {
+  cursor: pointer;
+}
+
+.search {
+  display: none;
+}
+.search .contain {
+  padding: 35px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search .contain input {
+  height: 5rem;
+  width: 50%;
+  font-size: 38px;
+  border: none;
+  outline: none;
+  color: #9f9f9f;
+}
+.search .contain i {
+  color: #666666;
+  font-size: 38px;
+}
+.search .contain i:hover {
+  cursor: pointer;
+}
+
+.inp-btn {
+  display: flex;
+  margin-top: 50px;
+}
+.inp-btn #to-do-inp {
+  padding: 10px 150px 10px 200px;
+  margin-left: 600px;
+  font-size: 20px;
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 8px;
+  outline: none;
+}
+.inp-btn #add-btn {
+  margin-left: 30px;
+  padding: 7px 30px;
+  font-size: 20px;
+  border: 1px solid red;
+  border-radius: 9px;
+}
+
+.task-list {
+  margin-left: 780px;
+}
+.task-list .box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.task-list .box button {
+  padding: 3px 30px;
+}
+
+.alertbox {
+  width: 150px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
